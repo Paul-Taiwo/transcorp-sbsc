@@ -2,3 +2,25 @@
     text-align: center;
     padding: 8% 30%;
 }
+
+p.about__subtext {
+    font-size: 52px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.06px;
+    text-align: center;
+    color: #000000;
+}
+
+.about__text p {
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.82px;
+  text-align: center;
+  color: #9b9b9b;
+}
