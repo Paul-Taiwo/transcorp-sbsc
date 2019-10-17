@@ -5,6 +5,7 @@
     transform: translate(-50%, -50%);
     bottom: -22%;
     left: 50%;
+    box-shadow: 3px 7px 23px #5555 ;
 }
 
 .form-group-avail {
