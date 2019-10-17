@@ -1,0 +1,12 @@
+.check__container {
+    height: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: -22%;
+    left: 50%;
+}
+
+.form-group-avail {
+    width: 25%;
+}
