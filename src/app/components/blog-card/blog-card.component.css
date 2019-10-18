@@ -1,0 +1,22 @@
+.card-date {
+  font-size: 14px;
+  letter-spacing: 0.82px;
+  color: #9b9b9b;
+  padding-bottom: 10px;
+}
+
+.card-body p {
+  padding-bottom: 20px;
+}
+
+.blog-link {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.82px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.blog-continue {
+  font-size:14px;
+}

@@ -1,13 +1,17 @@
 .about__us {
-    text-align: center;
     padding: 8% 30%;
+    margin-bottom: 120px
+}
+
+p.about__subtext,
+.about__text p {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
 }
 
 p.about__subtext {
     font-size: 52px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: normal;
     letter-spacing: 3.06px;
     text-align: center;
@@ -16,11 +20,16 @@ p.about__subtext {
 
 .about__text p {
     font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: 0.82px;
-  text-align: center;
-  color: #9b9b9b;
+    line-height: 2;
+    letter-spacing: 0.82px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.about__image{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: -64%;
 }
