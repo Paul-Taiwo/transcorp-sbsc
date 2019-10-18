@@ -1,6 +1,15 @@
 .about__us {
-    padding: 8% 30%;
+    position: relative;
+    padding: 28% 5% 0%;
     margin-bottom: 120px
+}
+
+.about__header {
+     /* font-family: SourceSansPro; */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4.94px;
+    color: #9b9b9b;
 }
 
 p.about__subtext,
@@ -11,9 +20,9 @@ p.about__subtext,
 }
 
 p.about__subtext {
-    font-size: 52px;
+    font-size: 26px;
     line-height: normal;
-    letter-spacing: 3.06px;
+    letter-spacing: 2.06px;
     text-align: center;
     color: #000000;
 }
@@ -26,10 +35,41 @@ p.about__subtext {
     color: #9b9b9b;
 }
 
-.about__image{
-    position: absolute;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    bottom: -64%;
+@media screen and (min-width: 768px){
+    .about__us {
+        padding-top: 14%;
+        /* margin-bottom: 120px */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about__us {
+        padding: 12% 14% 0%;
+        margin-bottom: 170px;
+    }
+
+    p.about__subtext {
+        font-size: 52px;
+        letter-spacing: 3.06px;
+    }
+
+    .about__image {
+        position: absolute;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        bottom: -74%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .about__us {
+        padding: 12% 28% 5%;
+        margin-bottom: 120px
+    }
+
+    .about__image {
+        bottom: -60%;
+    }
 }

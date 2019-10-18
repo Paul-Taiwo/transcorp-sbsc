@@ -1,4 +1,66 @@
+.pl-8 {
+    padding-left: 8rem;
+}
+
+.pt-5 {
+    padding-top: 5rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 5rem !important;
+}
+
 .discover {
-  border:1px solid red;
-  height:700px;
+    background: url("../../../assets/images/3F20DF2A-7402-49AB-B02C-AFAAF205C503.png");
+    border: 1px solid red;
+    height: 700px;
+    padding: 12% 0;
+}
+
+.discover__header {
+  /* font-family: SourceSansPro; */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4.94px;
+    margin-bottom: 0.9em;
+    color: #9b9b9b;
+}
+
+.discover__subtext {
+    /* font-family: Georgia; */
+    font-size: 36px;
+    letter-spacing: 2.12px;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+.discover__cards {
+    overflow: scroll;
+    height: 300px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.view__photo-link {
+  /* font-family: SourceSansPro; */
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4.94px;
+    color: #9b9b9b;
 }

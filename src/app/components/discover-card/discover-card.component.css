@@ -1,0 +1,32 @@
+.card-inline {
+  flex-direction:row;
+}
+
+.card-inline img {
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.card-body {
+  padding: 0.5rem 0 0 0.5rem;
+}
+
+.card-img-left {
+  width: 120px;
+  height:80px;
+
+  object-fit: fill;
+}
+
+.card-title {
+   /* font-family: Georgia; */
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.card-text {
+ /* font-family: Georgia; */
+  font-size: 12px;
+  letter-spacing: 0.71px;
+  color: #b5b5b5;
+}
