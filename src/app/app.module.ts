@@ -13,6 +13,8 @@ import { DiscoverCardComponent } from './components/discover-card/discover-card.
 import { TestimonialCardComponent } from './components/testimonial-card/testimonial-card.component';
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
+import { SwiperModule } from 'ngx-swiper-wrapper';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { BlogCardComponent } from './components/blog-card/blog-card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
