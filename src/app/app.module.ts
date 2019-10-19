@@ -10,10 +10,10 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { DiscoverComponent } from './components/discover/discover.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { DiscoverCardComponent } from './components/discover-card/discover-card.component';
-import { TestimonialCardComponent } from './components/testimonial-card/testimonial-card.component';
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { SwiperModule } from 'ngx-swiper-wrapper';
     DiscoverComponent,
     TestimonialComponent,
     DiscoverCardComponent,
-    TestimonialCardComponent,
-    BlogCardComponent
+    BlogCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

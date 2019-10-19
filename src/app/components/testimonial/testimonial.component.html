@@ -1,1 +1,23 @@
-<app-testimonial-card>
+<div class="swiper-container" [swiper]="testimonialConfig">
+
+	<div class="swiper-wrapper">
+
+		<div *ngFor="let testimonyObject of testimonialCollection" class="swiper-slide card text-center">
+
+			<div class="card-body">
+				<h5 class="card-title text-uppercase">Testimonial</h5>
+				<p class="card-subtext"What guest Say></p>
+				<p class="card-text">“{{ testimonyObject.testimony }}”</p>
+			</div>
+
+			<div class="avatar">
+				<img class="mx-auto  img-fluid card-img-bottom rounded-circle" [src]="testimonyObject.guestImgSrc" alt="">
+				<p class="avatar__name text-uppercase">{{ testimonyObject.guestName}}</p>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="swiper-pagination"></div> -->
+
+</div>
