@@ -8,10 +8,10 @@ import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
 })
 export class TestimonialComponent implements OnInit {
 
-  private testimonialConfig: SwiperConfigInterface = {
+  public testimonialConfig: SwiperConfigInterface = {
     slidesPerView: 1,
     autoplay: true,
-    // spaceBetween: 200,
+    spaceBetween: 200,
     breakpoints: {
       760: {
         slidesPerView: 1
@@ -24,7 +24,7 @@ export class TestimonialComponent implements OnInit {
     }
   }
 
-  private testimonialCollection:Object[] = [
+  public testimonialCollection:Object[] = [
     {
       guestName: 'Farah Williams',
       testimony: `,
