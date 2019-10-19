@@ -30,7 +30,7 @@ export class TestimonialComponent implements OnInit {
       testimony: `,
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo urna id neque finibus,
           ac sollicitudin arcu tempus.In hac habitasse platea dictumst`,
-      guestImgSrc: '../../../assets/images/2B379CC5-171B-4946-B91D-024EA95E74BF.png'
+      guestImgSrc: '../../../assets/images/guest1.png'
     },
     {
       guestName: 'James Coban',

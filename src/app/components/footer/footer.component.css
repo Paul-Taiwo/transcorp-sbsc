@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+    background-color: #211f20;
+    color: #9b9b9b;
+    padding: 20% 2%;
+}
+
+.footer ul {
+    list-style-type: none
+}
+
+.footer ul > li > a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+.row.footer__line::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    width: 79%;
+    bottom: 52px;
+    left: 10%;
+}
+
+@media screen and (min-width: 990px) {
+    .footer {
+        padding: 8%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        padding: 5% 8%;
+    }
+}

@@ -12,7 +12,6 @@
 
 .discover {
     background: url("../../../assets/images/3F20DF2A-7402-49AB-B02C-AFAAF205C503.png");
-    border: 1px solid red;
     padding: 12% 0;
 }
 
@@ -62,4 +61,29 @@
     font-weight: bold;
     letter-spacing: 4.94px;
     color: #9b9b9b;
+}
+
+.blog__header {
+    margin-bottom: 8%;
+    /* font-family: Georgia; */
+    font-size: 26px;
+    letter-spacing: 2.12px;
+    color: #4a4a4a;
+}
+
+@media screen and (min-width: 500px) {
+    .post__container {
+        margin: 0 10%
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .post__container {
+        margin: 0 14%
+    }
+}
+@media screen and (min-width: 1200px) {
+    .post__container {
+        margin: 0 18%
+    }
 }
