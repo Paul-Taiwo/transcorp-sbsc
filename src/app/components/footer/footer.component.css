@@ -6,12 +6,19 @@
 }
 
 .footer ul {
-    list-style-type: none
+    padding: 8px;
+    list-style-type: none;
 }
 
 .footer ul > li > a {
     text-decoration: none;
     color: #9b9b9b;
+    font-size: 14px;
+}
+
+.row.footer__line > .col-sm-12 h5,
+#footerEmailSignup::placeholder {
+    font-size: 16px
 }
 
 .row.footer__line::after {
@@ -22,6 +29,14 @@
     width: 79%;
     bottom: 52px;
     left: 10%;
+}
+
+#footerEmailSignup {
+    background-color: #211f20;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid#fff;
+    color: #fff
 }
 
 @media screen and (min-width: 990px) {

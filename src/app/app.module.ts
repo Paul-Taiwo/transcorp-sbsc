@@ -14,6 +14,7 @@ import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TestimonialComponent,
     DiscoverCardComponent,
     BlogCardComponent,
-    FooterComponent
+    FooterComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

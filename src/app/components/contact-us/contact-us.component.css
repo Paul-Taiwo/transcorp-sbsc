@@ -1,0 +1,84 @@
+.contact__us {
+    border: 1px solid red;
+}
+
+#map {
+    background-image: url("../../../assets/images/map.png");
+    background-size: contain;
+    border: 1px solid blue;
+    height: 600px;
+}
+
+.discover__header {
+  /* font-family: SourceSansPro; */
+    /* font-size: 14px; */
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4.94px;
+    margin-bottom: 0.9em;
+    color: #9b9b9b;
+}
+
+.discover__subtext {
+  /* font-family: Georgia; */
+    /* font-size: 36px; */
+    font-size: 26px;
+    letter-spacing: 2.12px;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+.pt-5 {
+    padding-top: 5rem !important;
+}
+
+p.location {
+    /* font-family: Georgia; */
+    font-size: 20px;
+    letter-spacing: 1.41px;
+    color: #d8d8d8;
+}
+
+p > span.city {
+    /* font-family: Georgia; */
+    font-size: 20px;
+    letter-spacing: 1.41px;
+    color: #000000;
+}
+
+.address,
+.contact__phone > p:nth-child(1) {
+    /* font-family: SourceSansPro; */
+    font-size: 12px;
+    line-height: 2.14;
+    letter-spacing: 0.82px;
+    color: #9b9b9b;
+}
+
+.contact__phone>p:nth-child(2) {
+    /* font-family: Georgia; */
+    font-size: 26px;
+    letter-spacing: 2.12px;
+    color: #000000;
+}
+
+@media screen and (min-width: 900px) {
+    p.location {
+        font-size: 24px;
+    }
+
+    p > span.city {
+        font-size: 24px
+    }
+
+    .address,
+    .contact__phone>p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .contact__phone>p:nth-child(2) {
+        font-size: 36px;
+    }
+
+
+}
