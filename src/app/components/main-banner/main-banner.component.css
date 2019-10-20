@@ -3,7 +3,7 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(67, 67, 67, 0.2)), url("../../../assets/images/transcorp-mainbanner-bg.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 520px;
 }
 
 .banner__text {
@@ -18,6 +18,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.banner__text fa {
+    cursor: pointer;
+}
+
+/* .banner__text fa:hover {
+    animation: rotate 4s;
+} */
+
 .banner__text p:first-child {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -27,3 +35,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+/* 
+@keyframes rotate {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+} */

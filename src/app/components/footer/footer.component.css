@@ -33,7 +33,7 @@
 #footerEmailSignup::placeholder {
     font-size: 16px
 }
-
+/* 
 .row.footer__line::after {
     content: "";
     position: absolute;
@@ -42,7 +42,7 @@
     width: 79%;
     bottom: 52px;
     left: 10%;
-}
+} */
 
 #footerEmailSignup {
     background-color: #211f20;
@@ -51,6 +51,32 @@
     border-bottom: 1px solid#fff;
     color: #fff
 }
+
+@media screen and (min-width: 500px) {
+    
+    .social__icons {
+        position: absolute;
+        bottom: 39px;
+        right: 0;
+        left: 0;
+        text-align: end;
+    }
+
+    
+    .social__icons::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        background-color: #fff;
+        width: 79%;
+        bottom: 52px;
+        left: 10%;
+    }
+
+    .social__icons fa:last-child {
+        margin-right: 10%;
+    }
+} 
 
 @media screen and (min-width: 990px) {
     .footer {

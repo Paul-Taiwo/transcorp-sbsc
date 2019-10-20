@@ -28,19 +28,10 @@
 
     <div class="container-fluid">
       <div class="row post__container">
-        <div class="col-sm-12 col-md-4">
-          <app-blog-card></app-blog-card>
-        </div>
-
-        <div class="col col-sm-12 col-md-4">
-          <app-blog-card></app-blog-card>
-        </div>
-
-        <div class="col col-sm-12 col-md-4">
-          <app-blog-card></app-blog-card>
+        <div *ngFor="let post of blogPosts" class="col-sm-12 col-md-4">
+          <app-blog-card [blogCardTitle]="post.blogCardTitle" blogCardImgSrc="post.blogCardImgSrc" blogCardDate="post.blogCardDate"></app-blog-card>
         </div>
       </div>
-
     </div>
 
 </section>
