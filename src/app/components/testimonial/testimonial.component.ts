@@ -27,8 +27,7 @@ export class TestimonialComponent implements OnInit {
   public testimonialCollection:Object[] = [
     {
       guestName: 'Farah Williams',
-      testimony: `,
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo urna id neque finibus,
+      testimony: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo urna id neque finibus,
           ac sollicitudin arcu tempus.In hac habitasse platea dictumst`,
       guestImgSrc: '../../../assets/images/guest1.png'
     },

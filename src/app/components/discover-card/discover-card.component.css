@@ -3,7 +3,7 @@
 }
 
 .card-inline img {
-  margin: 0.5rem 0 0 0.5rem;
+  margin: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .card-body {
@@ -18,14 +18,14 @@
 }
 
 .card-title {
-   /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     letter-spacing: 1px;
     color: #000000;
 }
 
 .card-text {
- /* font-family: Georgia; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
   letter-spacing: 0.71px;
   color: #b5b5b5;

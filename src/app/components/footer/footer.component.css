@@ -1,12 +1,12 @@
 .footer {
     position: relative;
     background-color: #211f20;
-    color: #9b9b9b;
+    /* color: #9b9b9b; */
     padding: 20% 2%;
 }
 
 .footer ul {
-    padding: 8px;
+    padding: 5px;
     list-style-type: none;
 }
 
@@ -14,6 +14,19 @@
     text-decoration: none;
     color: #9b9b9b;
     font-size: 14px;
+}
+
+.footer ul > li > a:hover {
+    color: #cecbcb;
+}
+
+.row.footer__line > .col-sm-12 h5 {
+    color: #fff;
+}
+
+.footer ul > li > a,
+.row.footer__line > .col-sm-12 h5 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .row.footer__line > .col-sm-12 h5,

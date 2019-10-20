@@ -5,6 +5,7 @@
 .navbar li a {
     font-size: 14px;
     margin-right: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar-brand img {

@@ -3,23 +3,17 @@
   margin-bottom: 12%
 }
 
-.swiper-wrapper {
-  /* align-self: center */
-}
-
 .card-title {
-  /* font-family: SourceSansPro; */
+  font-family:'Source Sans Pro', sans-serif;
   font-size: 12px;
-  /* font-size: 14px; */
   font-weight: bold;
   letter-spacing: 4.94px;
   color: #9b9b9b;
 }
 
 .card-text {
-  /* font-family: Georgia; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
-  /* font-size: 24px; */
   font-style: italic;
   line-height: 1.46;
   letter-spacing: 1.41px;
@@ -35,16 +29,16 @@
 }
 
 .avatar__name {
-  /* font-family: SourceSansPro; */
+  font-family:'Source Sans Pro', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
   color: #000000;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .swiper-container {
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
 

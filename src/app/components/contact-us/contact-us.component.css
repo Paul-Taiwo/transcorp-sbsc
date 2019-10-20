@@ -1,17 +1,11 @@
-.contact__us {
-    border: 1px solid red;
-}
-
 #map {
     background-image: url("../../../assets/images/map.png");
     background-size: contain;
-    border: 1px solid blue;
     height: 600px;
 }
 
 .discover__header {
-  /* font-family: SourceSansPro; */
-    /* font-size: 14px; */
+  font-family:'Source Sans Pro', sans-serif;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 4.94px;
@@ -20,7 +14,7 @@
 }
 
 .discover__subtext {
-  /* font-family: Georgia; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
     /* font-size: 36px; */
     font-size: 26px;
     letter-spacing: 2.12px;
@@ -33,14 +27,14 @@
 }
 
 p.location {
-    /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     letter-spacing: 1.41px;
     color: #d8d8d8;
 }
 
 p > span.city {
-    /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     letter-spacing: 1.41px;
     color: #000000;
@@ -48,7 +42,7 @@ p > span.city {
 
 .address,
 .contact__phone > p:nth-child(1) {
-    /* font-family: SourceSansPro; */
+    font-family:'Source Sans Pro', sans-serif;
     font-size: 12px;
     line-height: 2.14;
     letter-spacing: 0.82px;
@@ -56,13 +50,26 @@ p > span.city {
 }
 
 .contact__phone>p:nth-child(2) {
-    /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
     letter-spacing: 2.12px;
     color: #000000;
 }
 
+@media screen and (min-width: 500px) {
+    #map {
+        height: 450px;
+    }
+}
+
 @media screen and (min-width: 900px) {
+    #map {
+        height: 600px;
+    }
+    .discover__header {
+        font-size: 14px;
+    }      
+
     p.location {
         font-size: 24px;
     }
@@ -80,5 +87,8 @@ p > span.city {
         font-size: 36px;
     }
 
+}
+
+@media screen and (min-width: 1200px) {
 
 }

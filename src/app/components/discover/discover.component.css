@@ -16,7 +16,7 @@
 }
 
 .discover__header {
-  /* font-family: SourceSansPro; */
+    font-family:'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 4.94px;
@@ -25,7 +25,7 @@
 }
 
 .discover__subtext {
-    /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     letter-spacing: 2.12px;
     color: #000000;
@@ -33,7 +33,7 @@
 }
 
 .discover__cards {
-    overflow: scroll;
+    overflow: overlay;
     height: 300px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .view__photo-link {
-  /* font-family: SourceSansPro; */
+    font-family:'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 4.94px;
@@ -65,7 +65,7 @@
 
 .blog__header {
     margin-bottom: 8%;
-    /* font-family: Georgia; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
     letter-spacing: 2.12px;
     color: #4a4a4a;

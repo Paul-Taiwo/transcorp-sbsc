@@ -14,7 +14,16 @@
     left: 50%;
 }
 
-.banner__text h1, 
-.banner__text p {
-    
+.banner__text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner__text p:first-child {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.banner__text .sub__t {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }

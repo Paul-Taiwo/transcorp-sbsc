@@ -13,6 +13,7 @@ import { DiscoverCardComponent } from './components/discover-card/discover-card.
 import { BlogCardComponent } from './components/blog-card/blog-card.component';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
@@ -33,6 +34,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AngularFontAwesomeModule,
     SwiperModule
   ],
   providers: [],

@@ -5,7 +5,7 @@
 }
 
 .about__header {
-     /* font-family: SourceSansPro; */
+     font-family:'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 4.94px;
@@ -20,6 +20,7 @@ p.about__subtext,
 }
 
 p.about__subtext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
     line-height: normal;
     letter-spacing: 2.06px;
@@ -28,6 +29,7 @@ p.about__subtext {
 }
 
 .about__text p {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.82px;
@@ -35,14 +37,14 @@ p.about__subtext {
     color: #9b9b9b;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 500px){
     .about__us {
         padding-top: 14%;
         /* margin-bottom: 120px */
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
     .about__us {
         padding: 12% 14% 0%;
         margin-bottom: 170px;
@@ -65,7 +67,7 @@ p.about__subtext {
 
 @media screen and (min-width: 1200px) {
     .about__us {
-        padding: 12% 28% 5%;
+        padding: 12% 28% 7%;
         margin-bottom: 120px
     }
 
